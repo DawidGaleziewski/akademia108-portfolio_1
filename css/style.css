@@ -31,6 +31,18 @@ ul, li, ol {
     left: 45%;
 }
 
+.title-secondary {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 6.4rem;
+    
+}
+
+.title-secondary:after {
+    left: 15%;
+    bottom: -9px;
+}
+
 
 .main-button {
     border: 1px solid #007bff;
@@ -127,16 +139,6 @@ ul, li, ol {
     padding: 10vh 0;
 }
 
-.about__title {
-    text-transform: uppercase;
-    font-weight: normal;
-}
-.about > .title-underline:after {
-    left: 15%;
-    bottom: -9px;
-
-}
-
 .about__img {
     background-image: url("../img/about.jpg");
     background-repeat: no-repeat;
@@ -153,3 +155,33 @@ ul, li, ol {
 }
 
 /* ABOUT - END*/
+
+
+
+
+
+/* PORTFOLIO - START */
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 80vh;
+    background-color: #f2f1ed;
+    padding: 10vh 0;
+}
+
+.portfolio .title-underline::after{
+    left: 1.7rem;
+}
+
+.portfolio__gallery {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__image {
+    width: 25%;
+    height: 25%;
+}
+/* PORTFOLIO - END */
