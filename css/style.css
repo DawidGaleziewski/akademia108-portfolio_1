@@ -49,11 +49,14 @@ ul, li, ol {
     color: #007bff;
     font-size: 3.2rem;
 }
+.title-underline{
+    position: relative;
+}
 
-.main-header__introduction > .main-header__title:after{
+ .title-underline:after{
     display: block;
     content: '';
-    width: 9%;
+    width: 4rem;
     height: 1px;
     background-color: #007bff;
     position: absolute;
@@ -104,7 +107,43 @@ ul, li, ol {
     color: #fff;
     text-decoration: none;
 }
-
-
 /* HEADER STYLES - END */
 
+
+
+
+
+/* ABOUT - START*/
+.about{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__title {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.about > .title-underline:after {
+    left: 15%;
+    bottom: -9px;
+
+}
+
+.about__img {
+    background-image: url("../img/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    margin-top: 3.2rem;
+}
+
+.about__text {
+
+}
+
+/* ABOUT - END*/
