@@ -227,6 +227,7 @@ textarea.form__input {
 
 .contact__media .media__item {
     list-style: none;
+    margin: 1.6rem;
 
 }
 
@@ -235,3 +236,12 @@ textarea.form__input {
     color: #007bff;
 }
 /* CONTACT - END */
+
+
+
+
+/* FOOTER - START */
+.footer {
+    background-color: #f2f1ed;
+}
+/* FOOTER - END */
