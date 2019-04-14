@@ -219,4 +219,19 @@ textarea.form__input {
     height: 10vh;
 }
 
+.contact__media {
+    margin-top: 6.4rem;
+    display: flex;
+    justify-content: flex-end
+}
+
+.contact__media .media__item {
+    list-style: none;
+
+}
+
+.contact__media .media__item i {
+    font-size: 4.8rem;
+    color: #007bff;
+}
 /* CONTACT - END */
